@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--============== TITLE ==============-->
+  <title>Onlink Solutions</title>
+
+  <!--============== FAVICON ==============-->
+  <link rel="icon" href="src/img/favicon-logo.png">
+
+  <!--============== OUTPUT.CSS ==============-->
+  <link rel="stylesheet" href="src/output.css" />
+
+  <!--============== REMIXICONS.CSS ==============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <!--============== GOOGLE FONTS ==============-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap"
+    rel="stylesheet">
+
+  <!--============== AOS.CSS ==============-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--============== WELCOME HEADER ==============-->
+  <div class="bg-gradient-to-r from-darkBlue to-lightBlue">
+    <div class="py-1 containerr">
+      <h3 class="font-lexend">Welcome To Onlink Solutions</h3>
+    </div>
+  </div>
+
+  <!--============== MAIN HEADER ==============-->
+  <header class="fixed z-40 w-full py-2 bg-header top-7" id="header-nav">
+    <nav class="flex items-center justify-between containerr h-header">
+      <a href="#"><img src="src/img/onlink-logo.png" class="w-[9rem]" alt=""></a>
+
+      <div class="nav_menu" id="nav-menu">
+        <ul class="flex flex-col gap-8 lg:gap-x-12 md:flex-row md:items-center">
+          <li><a href="index.html" class="text-2xl cursor-pointer hover:border-b-2 md:text-[1rem] font-lexend">Home</a>
+          </li>
+          <li><a href="about.html" class="text-2xl cursor-pointer hover:border-b-2 md:text-[1rem] font-lexend">About</a>
+          </li>
+          <li><a href="services.html"
+              class="text-2xl cursor-pointer hover:border-b-2 md:text-[1rem] font-lexend">Services</a></li>
+          <li><a href="portfolio.html"
+              class="text-2xl cursor-pointer hover:border-b-2 md:text-[1rem] font-lexend">Portfolio</a></li>
+          <li><a href="contact-us.html"
+              class="p-3 text-2xl duration-200 cursor-pointer bg-headbtn hover:bg-lightBlue md:text-[1rem] font-lexend">Contact
+              Us</a></li>
+        </ul>
+
+        <div id="nav-close" class="md:hidden">
+          <i class="absolute ri-close-line top-[2rem] cursor-pointer right-[2.5rem] text-3xl"></i>
+        </div>
+      </div>
+
+      <div id="nav-toggle" class="md:hidden">
+        <i class="text-2xl cursor-pointer ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--============== MAIN ==============-->
+  <main class="main">
+    <!--============== HERO VIDEO ==============-->
+    <div class="hero_video">
+      <video autoplay muted loop plays-inline>
+        <source src="./src/videos/hero-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="flex flex-col items-center justify-center h-full gap-5 lg:gap-7">
+        <div class="flex flex-col gap-2 md:gap-4 lg:gap-12">
+          <h2 class="text-4xl md:text-[3rem] lg:text-[5rem] text-center font-lexend">Connecting You</h2>
+          <h2 class="text-4xl md:text-[3rem] lg:text-[5rem] text-center font-lexend">to Technology</h2>
+        </div>
+
+        <a href="#why"
+          class="px-5 py-4 mt-8 transition-colors bg-black rounded-full shadow-lg motion-safe:animate-bounce shadow-black hover:bg-header"><i
+            class="text-xl ri-arrow-down-line"></i></a>
+      </div>
+    </div>
+
+    <!--============== LANGUAGES BAR ==============-->
+    <div class="py-[2rem]">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./src/img/icons/arduino.png" class="self-center" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/css.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/git.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/html.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/java.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/javascript.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/mongo-db.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/mysql.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/nodejs.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/python.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/tailwind.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/adobe-photoshop.png" alt=""></div>
+          <div class="swiper-slide"><img src="./src/img/icons/adobe-premier.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+
+    <!--============== WHY CHOOSE US ==============-->
+    <section class="py-9" id="why">
+      <div class="containerr">
+
+        <div class="items-center md:grid md:mt-6 md:grid-cols-2">
+          <div class="grid lg:justify-center md:order-2" data-aos="zoom-in">
+            <img src="./src/img/why-choose-us.png" class="lg:w-[400px]" alt="">
+          </div>
+          <div class="md:order-1" data-aos="zoom-in">
+            <h2 class="text-xl font-bold lg:text-3xl text-primary font-lexend">WHY CHOOSE US?</h2>
+            <p class="mt-5 text-black">Onlink Solutions is a hardworking family. We are a growing business, so we're all
+              about productivity and achievement. Our team is all experts in their fields and works hard daily to
+              service our clients and build our business. We have highly skilled engineers with excellent technical
+              knowledge and experience in using the latest software standards. We have built a large pool of knowledge
+              that we apply to deliver solutions that meet client's needs, expectations and budget. By putting our
+              clients at the heart of everything we do, we are proud that we are still supporting our very first
+              business client. Our team is rewarded for their efforts with massages, and team-building activities
+              regularly because they are all integral to Onlink Solution's success. We are happy discuss with your ideas
+              and problems on choosing the best solution for you! </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============== WHAT WE DO ==============-->
+    <section class="bg-black">
+      <div class="py-9 containerr">
+        <h2 class="mb-8 text-xl font-bold text-center text-white lg:text-3xl font-lexend">WHAT WE DO?</h2>
+
+        <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+
+          <a href="services.html#web" data-aos="zoom-in">
+            <div class="bg-boxColor hovbox rounded-sm h-[120px] py-2 px-3 grid grid-cols-3">
+              <div class="flex flex-col justify-between col-span-2">
+                <h2 class="text-3xl font-lexend hovboxSub text-textGray">01</h2>
+                <h3 class="text-xl font-bold font-lexend hovboxSub">WEB <br> DEVELOPMENT</h3>
+              </div>
+              <div class="flex items-center justify-center col-span-1">
+                <i class="text-6xl ri-layout-3-line text-primary"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="services.html#software" data-aos="zoom-in">
+            <div class="bg-boxColor hovbox rounded-sm h-[120px] py-2 px-3 grid grid-cols-3">
+              <div class="flex flex-col justify-between col-span-2">
+                <h2 class="text-3xl font-lexend hovboxSub text-textGray">02</h2>
+                <h3 class="text-xl font-bold font-lexend hovboxSub">SOFTWARE<br>DEVELOPMENT</h3>
+              </div>
+              <div class="flex items-center justify-center col-span-1">
+                <i class="text-6xl ri-code-box-line text-primary"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="services.html#mobile" data-aos="zoom-in">
+            <div class="bg-boxColor hovbox rounded-sm h-[120px] py-2 px-3 grid grid-cols-3">
+              <div class="flex flex-col justify-between col-span-2">
+                <h2 class="text-3xl font-lexend hovboxSub text-textGray">03</h2>
+                <h3 class="text-xl font-bold font-lexend hovboxSub">MOBILE<br>DEVELOPMENT</h3>
+              </div>
+              <div class="flex items-center justify-center col-span-1">
+                <i class="text-6xl ri-instance-line text-primary"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="services.html#graphic" data-aos="zoom-in">
+            <div class="bg-boxColor hovbox rounded-sm h-[120px] py-2 px-3 grid grid-cols-3">
+              <div class="flex flex-col justify-between col-span-2">
+                <h2 class="text-3xl font-lexend hovboxSub text-textGray">04</h2>
+                <h3 class="text-xl font-bold font-lexend hovboxSub">GRAPHIC<br>DESIGNING</h3>
+              </div>
+              <div class="flex items-center justify-center col-span-1">
+                <i class="text-6xl ri-quill-pen-line text-primary"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="services.html#digital" data-aos="zoom-in">
+            <div class="bg-boxColor hovbox rounded-sm h-[120px] py-2 px-3 grid grid-cols-3">
+              <div class="flex flex-col justify-between col-span-2">
+                <h2 class="text-3xl font-lexend hovboxSub text-textGray">05</h2>
+                <h3 class="text-xl font-bold font-lexend hovboxSub">DIGITAL<br>MARKETING</h3>
+              </div>
+              <div class="flex items-center justify-center col-span-1">
+                <i class="text-6xl ri-megaphone-line text-primary"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="services.html#seo" data-aos="zoom-in">
+            <div class="bg-boxColor hovbox rounded-sm h-[120px] py-2 px-3 grid grid-cols-3">
+              <div class="flex flex-col justify-between col-span-2">
+                <h2 class="text-3xl font-lexend hovboxSub text-textGray">06</h2>
+                <h3 class="text-xl font-bold font-lexend hovboxSub">SEARCH ENGINE OPTIMIZATION</h3>
+              </div>
+              <div class="flex items-center justify-center col-span-1">
+                <i class="text-6xl ri-seo-line text-primary"></i>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--============== HOW WE WORD ==============-->
+    <div class="how_work_img">
+
+      <div class="containerr pt-[4rem]">
+        <h2 class="mb-16 text-xl font-bold text-center text-black md:text-3xl font-lexend">HOW WE WORK</h2>
+
+        <div class="swiper workSwiper">
+          <div class="mb-10 swiper-wrapper">
+
+            <div class="w-full px-8 py-10 bg-white swiper-slide">
+              <div class="grid gap-4">
+                <h1 class="font-bold text-black text-7xl font-karla">01</h1>
+                <h2 class="text-3xl font-bold text-black font-karla">Discover</h2>
+                <p class="text-black">In this stage, we work closely with our clients to understand their business
+                  goals, target audience, and requirements. We use this information to create a comprehensive project
+                  plan and set expectations for timelines and deliverables.</p>
+              </div>
+            </div>
+
+            <div class="w-full px-8 py-10 bg-white swiper-slide">
+              <div class="grid gap-4">
+                <h1 class="font-bold text-black text-7xl font-karla">02</h1>
+                <h2 class="text-3xl font-bold text-black font-karla">Planning</h2>
+                <p class="text-black">Once we have a solid understanding of the project requirements, we move to the
+                  planning stage. Here, we define the project scope, create a roadmap for development, and set
+                  milestones for testing and deployment. We also identify potential risks and create contingency plans
+                  to mitigate them.</p>
+              </div>
+            </div>
+
+            <div class="w-full px-8 py-10 bg-white swiper-slide">
+              <div class="grid gap-4">
+                <h1 class="font-bold text-black text-7xl font-karla">03</h1>
+                <h2 class="text-3xl font-bold text-black font-karla">Design & Develop</h2>
+                <p class="text-black">In this stage, our team of experienced designers and developers create wireframes,
+                  mockups, and prototypes to help clients visualize their product. We use agile development
+                  methodologies to ensure that the product is built efficiently and effectively.</p>
+              </div>
+            </div>
+
+            <div class="w-full px-8 py-10 bg-white swiper-slide">
+              <div class="grid gap-4">
+                <h1 class="font-bold text-black text-7xl font-karla">04</h1>
+                <h2 class="text-3xl font-bold text-black font-karla">Testing & Deploy</h2>
+                <p class="text-black">Once the product is complete, we rigorously test it to identify any bugs or issues
+                  that need to be addressed. We work closely with our clients to fix any issues and ensure that the
+                  product meets their expectations. We then deploy the product to the client's server or cloud
+                  infrastructure.</p>
+              </div>
+            </div>
+
+            <div class="w-full px-8 py-10 bg-white swiper-slide">
+              <div class="grid gap-4">
+                <h1 class="font-bold text-black text-7xl font-karla">05</h1>
+                <h2 class="text-3xl font-bold text-black font-karla">Maintenance</h2>
+                <p class="text-black">We provide ongoing maintenance and support to ensure that the product is running
+                  smoothly and is up-to-date with the latest security patches and updates. We work with our clients to
+                  address any issues that arise and provide regular updates on the product's performance..</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--============== NUMERICAL VALUES ==============-->
+    <div class="numerical_img">
+      <div class="grid gap-4 containerr py-9 md:grid-cols-2 lg:grid-cols-4">
+
+        <div class="grid w-full gap-6 py-6 px-7" data-aos="fade-up">
+          <div class="text-center">
+            <i class="p-4 rounded-full text-7xl bg-primary ri-verified-badge-line"></i>
+          </div>
+          <div class="text-center ">
+            <h2 class="text-3xl font-bold font-karla">2+</h2>
+            <h3 class="text-xl font-karla">WORKING PROJECTS</h3>
+          </div>
+        </div>
+
+        <div class="grid w-full gap-6 py-6 px-7" data-aos="fade-up">
+          <div class="text-center">
+            <i class="p-4 rounded-full text-7xl bg-primary ri-emotion-happy-fill"></i>
+          </div>
+          <div class="text-center ">
+            <h2 class="text-3xl font-bold font-karla">2+</h2>
+            <h3 class="text-xl font-karla">HAPPY CLIENTS</h3>
+          </div>
+        </div>
+
+        <div class="grid w-full gap-6 py-6 px-7" data-aos="fade-up">
+          <div class="text-center">
+            <i class="p-4 rounded-full text-7xl bg-primary ri-timer-flash-line"></i>
+          </div>
+          <div class="text-center ">
+            <h2 class="text-3xl font-bold font-karla">250+</h2>
+            <h3 class="text-xl font-karla">WORKING HOURS</h3>
+          </div>
+        </div>
+
+        <div class="grid w-full gap-6 py-6 px-7" data-aos="fade-up">
+          <div class="text-center">
+            <i class="p-4 rounded-full text-7xl bg-primary ri-group-line"></i>
+          </div>
+          <div class="text-center ">
+            <h2 class="text-3xl font-bold font-karla">3+</h2>
+            <h3 class="text-xl font-karla">TEAM MEMBERS</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--============== ABOUT US ==============-->
+    <section class="py-9">
+      <div class="containerr">
+        <div class="grid items-center md:grid-cols-2">
+          <div class="md:order-2" data-aos="zoom-in">
+            <img src="./src/img/about-us.png" alt="">
+          </div>
+          <div class="grid gap-8 md:order-1" data-aos="zoom-in">
+            <div class="grid gap-4">
+              <h2 class="text-xl font-bold lg:text-3xl text-primary font-lexend">ABOUT US</h2>
+              <h3 class="text-xl font-bold text-black font-karla md:text-2xl">Building the Future with Innovative
+                Digital Solutions</h3>
+              <p class="text-black text-md lg:text-xl">We empower businesses and individuals through innovative and
+                transformative software solutions, perfectly tailored to fit their needs, enhance productivity and drive
+                sustainable growth. </p>
+            </div>
+
+            <div>
+              <a href="about.html" class="inline-flex items-center gap-2 px-4 py-3 bg-primary">Get to know us<i
+                  class="ri-arrow-right-line"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--============== CUSTOM CARE ==============-->
+    <div class="w-full bg-secondary py-9">
+      <div class="grid gap-5 md:grid-cols-4 containerr">
+        <div class="grid items-end justify-center">
+          <h2 class="text-2xl font-bold font-karla text-primary">24/7 Customer Care</h2>
+          <p class="text-md font-karla text-primary">Expert advice, friendly tech support</p>
+        </div>
+
+        <a href="#">
+          <div class="grid items-center grid-cols-3 duration-200 hover:scale-110">
+            <div class="grid items-center justify-center">
+              <i class="text-3xl text-darkPrimary ri-phone-line"></i>
+            </div>
+            <div class="col-span-2">
+              <h2 class="text-xl font-bold font-karla text-darkPrimary">Phone</h2>
+              <p class="font-semibold text-md font-karla text-primary">+94 78 300 6060</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="grid items-center grid-cols-3 duration-200 hover:scale-110">
+            <div class="grid items-center justify-center">
+              <i class="text-3xl text-darkPrimary ri-message-3-line"></i>
+            </div>
+            <div class="col-span-2">
+              <h2 class="text-xl font-bold font-karla text-darkPrimary">Chat</h2>
+              <p class="text-md font-karla text-primary">Live chat with us</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="grid items-center grid-cols-3 duration-200 hover:scale-110">
+            <div class="grid items-center justify-center">
+              <i class="text-3xl text-darkPrimary ri-mail-unread-line"></i>
+            </div>
+            <div class="col-span-2">
+              <h2 class="text-xl font-bold font-karla text-darkPrimary">Email</h2>
+              <p class="text-md font-karla text-primary">Email us</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!--============== FOOTER ==============-->
+  <footer class="bg-footerBlack">
+    <div class="py-10 containerr">
+      <div class="grid gap-5 lg:grid-cols-footer lg:gap-[10rem]">
+
+        <div>
+          <img src="./src/img/onlink-footer.png" class="w-[200px] mb-4">
+          <span class="opacity-40">Our vision is to scale your business <br> with
+            our dedicated teams of <br> experienced
+            engineers and managers.</span>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-footerSub lg:gap-[5rem] md:gap-4">
+          <div>
+            <h3 class="font-lexend">SERVICES</h3>
+            <ul>
+              <li><a href="#" class="inline-flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl text-textGray ri-arrow-drop-right-line"></i>Web Design & Development</a></li>
+              <li><a href="#" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Software Development</a></li>
+              <li><a href="#" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Mobile Development</a></li>
+              <li><a href="#" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Graphic Designing</a></li>
+              <li><a href="#" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Digital Marketing</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-lexend">COMPANY</h3>
+            <ul>
+              <li><a href="index.html" class="inline-flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl text-textGray ri-arrow-drop-right-line"></i>Home</a></li>
+              <li><a href="about.html" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>About</a></li>
+              <li><a href="services.html" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Services</a></li>
+              <li><a href="portfolio.html" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Portfolio</a></li>
+              <li><a href="contact-us.html" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-lexend">FOLLOW US</h3>
+
+            <div class="flex items-center gap-4 mt-3">
+              <a href="https://web.facebook.com/onlinksolutions"><i class="text-3xl text-gray-300 ri-facebook-circle-line hover:text-white"></i></a>
+              <a href="https://www.instagram.com/onlinksolutions/"><i class="text-3xl text-gray-300 hover:text-white ri-instagram-line"></i></a>
+              <a href="https://www.youtube.com/onlinksolutions/"><i class="text-3xl text-gray-300 hover:text-white ri-youtube-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid gap-4 mt-5 md:flex md:justify-between md:items-center">
+        <span class="order-2 text-sm text-center text-textGray md:order-1">Copyright &copy; 2024 Onlink Solutions. All
+          Rights Reserved.</span>
+
+        <div class="flex justify-between order-1 md:order-2 md:gap-4">
+          <a href="#" class="text-gray-200 hover:underline">Terms & Agreements</a>
+          <a href="#" class="text-gray-200 hover:underline">Privacy & Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--============== MAIN.JS ==============-->
+  <script src="main.js"></script>
+
+  <!--============== SWIPER.JS ==============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--============== AOS.JS ==============-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    AOS.init({
+
+      duration: 800, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+  </script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 9,
+      centeredSlides: true,
+      loop: 'true',
+      clickable: false,
+      allowTouchMove: false,
+      autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        280: {
+          slidesPerView: 4,
+        },
+        360: {
+          slidesPerView: 6,
+        },
+        640: {
+          slidesPerView: 10,
+        },
+      }
+    });
+  </script>
+
+  <script>
+    var swiper = new Swiper(".workSwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      breakpoints: {
+        280: {
+          slidesPerView: 1,
+        },
+        840: {
+          slidesPerView: 3,
+        },
+      }
+    });
+  </script>
+</body>
+
+</html>

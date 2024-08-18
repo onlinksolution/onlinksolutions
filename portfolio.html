@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--============== TITLE ==============-->
+  <title>Portfolio - Onlink Solutions</title>
+
+  <!--============== FAVICON ==============-->
+  <link rel="icon" href="src/img/favicon-logo.png">
+
+  <!--============== OUTPUT.CSS ==============-->
+  <link rel="stylesheet" href="src/output.css" />
+
+  <!--============== REMIXICONS.CSS ==============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <!--============== GOOGLE FONTS ==============-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap"
+    rel="stylesheet">
+
+  <!--============== AOS.CSS ==============-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--============== WELCOME HEADER ==============-->
+  <div class="bg-gradient-to-r from-darkBlue to-lightBlue">
+    <div class="py-1 containerr">
+      <h3 class="font-lexend">Welcome To Onlink Solutions</h3>
+    </div>
+  </div>
+
+  <!--============== MAIN HEADER ==============-->
+  <header class="fixed z-40 w-full py-2 bg-header top-7" id="header-nav">
+    <nav class="flex items-center justify-between containerr h-header">
+      <a href="#"><img src="src/img/onlink-logo.png" class="w-[9rem]" alt=""></a>
+
+      <div class="nav_menu" id="nav-menu">
+        <ul class="flex flex-col gap-8 lg:gap-x-12 md:flex-row md:items-center">
+          <li><a href="index.html" class="text-2xl cursor-pointer hover:border-b-2 md:text-[1rem] font-lexend">Home</a>
+          </li>
+          <li><a href="about.html" class="text-2xl cursor-pointer hover:border-b-2 md:text-[1rem] font-lexend">About</a>
+          </li>
+          <li><a href="services.html"
+              class="text-2xl cursor-pointer hover:border-b-2 md:text-[1rem] font-lexend">Services</a></li>
+          <li><a href="portfolio.html"
+              class="text-2xl cursor-pointer hover:border-b-2 md:text-[1rem] font-lexend">Portfolio</a></li>
+          <li><a href="contact-us.html"
+              class="p-3 text-2xl duration-200 cursor-pointer bg-headbtn hover:bg-lightBlue md:text-[1rem] font-lexend">Contact
+              Us</a></li>
+        </ul>
+
+        <div id="nav-close" class="md:hidden">
+          <i class="absolute ri-close-line top-[2rem] cursor-pointer right-[2.5rem] text-3xl"></i>
+        </div>
+      </div>
+
+      <div id="nav-toggle" class="md:hidden">
+        <i class="text-2xl cursor-pointer ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--============== MAIN ==============-->
+  <main class="main">
+
+    <!--============== TOP IMAGE AND TOPIC ==============-->
+    <div class="flex items-center justify-center pt-8 portfolio-page">
+      <h1 class="text-4xl font-lexend">PORTFOLIO</h1>
+    </div>
+
+    <section class="py-8 containerr">
+      <div>
+        <h2 class="text-2xl font-bold text-primary font-karla lg:text-4xl">Develop, deploy, and manage <br> diverse
+          projects</h2>
+
+        <div class="w-4/12 h-2 mt-3 lg:mt-8 bg-darkPrimary"></div>
+
+        <h2 class="mt-12 text-3xl text-center text-black font-lexend">WEB PROJECTS</h2>
+
+        <div class="grid gap-4 mt-5 lg:gap-8 md:grid-cols-2">
+
+          <div class="grid gap-4 px-3 py-4 rounded-md bg-gray-50">
+            <img class="w-full rounded-md" style="object-fit: cover; object-position: center;"
+              src="./src/img/projects/project-1.jpg" />
+
+            <div class="grid gap-2">
+              <h2 class="text-black font-lexend lg:text-2xl">Bridal Gallery</h2>
+              <h3 class="text-xl font-light font-montserrat text-primary">Web Application</h3>
+              <p class="text-black">Full-stack web development project with amazing UI and functional backend. The
+                project is done for the salon Bridal Gallery including student registration with an admin panel.</p>
+              <div class="pb-4 mt-3 lg:mt-8">
+                <a href="#" class="px-4 py-2 text-white bg-primary">Read more</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="grid gap-4 px-3 py-4 rounded-md bg-gray-50">
+            <img class="w-full rounded-md" style="object-fit: cover; object-position: center;"
+              src="./src/img/projects/project-3.jpg" />
+
+            <div class="grid gap-2">
+              <h2 class="text-black font-lexend lg:text-2xl">FZ COVERS</h2>
+              <h3 class="text-xl font-light font-montserrat text-primary">Web Application</h3>
+              <p class="text-black">Full-stack web development project with attractive UI designs and functional
+                backend. This project is based on the Youtube channel FZ Covers including an admin panel with music
+                notes download function.</p>
+              <div class="pb-4 mt-3 lg:mt-8">
+                <a href="#" class="px-4 py-2 text-white bg-primary">Read more</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="grid gap-4 px-3 py-4 rounded-md bg-gray-50">
+            <img class="w-full rounded-md" style="object-fit: cover; object-position: center;"
+              src="./src/img/projects/project-2.jpg" />
+
+            <div class="grid gap-2">
+              <h2 class="text-black font-lexend lg:text-2xl">Watch Collecton Website</h2>
+              <h3 class="text-xl font-light font-montserrat text-primary">UI UX Design</h3>
+              <p class="text-black">Fully one-page UI design with HTML, CSS & JS. Attractive components and colors give
+                a super user experience.</p>
+              <div class="pb-4 mt-3 lg:mt-8">
+                <a href="#" class="px-4 py-2 text-white bg-primary">Read more</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="grid gap-4 px-3 py-4 rounded-md bg-gray-50">
+            <img class="w-full rounded-md" style="object-fit: cover; object-position: center;"
+              src="./src/img/projects/project-5.jpg" />
+
+            <div class="grid gap-2">
+              <h2 class="text-black font-lexend lg:text-2xl">Real State Website</h2>
+              <h3 class="text-xl font-light font-montserrat text-primary">UI UX Design</h3>
+              <p class="text-black">Fully one-page UI design with HTML, CSS & JS. Attractive components and colors give
+                a super user experience.</p>
+              <div class="pb-4 mt-3 lg:mt-8">
+                <a href="#" class="px-4 py-2 text-white bg-primary">Read more</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="grid gap-4 px-3 py-4 rounded-md bg-gray-50">
+            <img class="w-full rounded-md" style="object-fit: cover; object-position: center;"
+              src="./src/img/projects/project-6.jpg" />
+
+            <div class="grid gap-2">
+              <h2 class="text-black font-lexend lg:text-2xl">Travel Website</h2>
+              <h3 class="text-xl font-light font-montserrat text-primary">UI UX Design</h3>
+              <p class="text-black">Fully one-page UI design with HTML, CSS & JS. Attractive components and colors give
+                a super user experience.</p>
+              <div class="pb-4 mt-3 lg:mt-8">
+                <a href="#" class="px-4 py-2 text-white bg-primary">Read more</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!--============== FOOTER ==============-->
+  <footer class="bg-footerBlack">
+    <div class="py-10 containerr">
+      <div class="grid gap-5 lg:grid-cols-footer lg:gap-[10rem]">
+
+        <div>
+          <img src="./src/img/onlink-footer.png" class="w-[200px] mb-4">
+          <span class="opacity-40">Our vision is to scale your business <br> with
+            our dedicated teams of <br> experienced
+            engineers and managers.</span>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-footerSub lg:gap-[5rem] md:gap-4">
+          <div>
+            <h3 class="font-lexend">SERVICES</h3>
+            <ul>
+              <li><a href="#" class="inline-flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl text-textGray ri-arrow-drop-right-line"></i>Web Design & Development</a></li>
+              <li><a href="#" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Software Development</a></li>
+              <li><a href="#" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Mobile Development</a></li>
+              <li><a href="#" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Graphic Designing</a></li>
+              <li><a href="#" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Digital Marketing</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-lexend">COMPANY</h3>
+            <ul>
+              <li><a href="index.html" class="inline-flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl text-textGray ri-arrow-drop-right-line"></i>Home</a></li>
+              <li><a href="about.html" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>About</a></li>
+              <li><a href="services.html" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Services</a></li>
+              <li><a href="portfolio.html" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Portfolio</a></li>
+              <li><a href="contact-us.html" class="flex items-center text-textGray hover:text-white"><i
+                    class="text-2xl ri-arrow-drop-right-line text-textGray"></i>Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-lexend">FOLLOW US</h3>
+
+            <div class="flex items-center gap-4 mt-3">
+              <a href="https://web.facebook.com/onlinksolutions"><i
+                  class="text-3xl text-gray-300 ri-facebook-circle-line hover:text-white"></i></a>
+              <a href="https://www.instagram.com/onlinksolutions/"><i
+                  class="text-3xl text-gray-300 hover:text-white ri-instagram-line"></i></a>
+              <a href="https://www.youtube.com/onlinksolutions/"><i
+                  class="text-3xl text-gray-300 hover:text-white ri-youtube-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid gap-4 mt-5 md:flex md:justify-between md:items-center">
+        <span class="order-2 text-sm text-center text-textGray md:order-1">Copyright &copy; 2024 Onlink Solutions. All
+          Rights Reserved.</span>
+
+        <div class="flex justify-between order-1 md:order-2 md:gap-4">
+          <a href="#" class="text-gray-200 hover:underline">Terms & Agreements</a>
+          <a href="#" class="text-gray-200 hover:underline">Privacy & Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--============== MAIN.JS ==============-->
+  <script src="main.js"></script>
+
+  <!--============== SWIPER.JS ==============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--============== AOS.JS ==============-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    AOS.init({
+
+      duration: 800, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+  </script>
+
+</body>
+
+</html>
